@@ -1,0 +1,11 @@
+name: 'GSA Test'
+description: 'Run a test with GSA'
+inputs:
+  gsa-options:
+    description: 'What options to run GSA with'
+    required: true
+runs:
+  using: "composite"
+  steps:
+      - run: gsa ${{ inputs.gsa-options }}
+        shell: bash
