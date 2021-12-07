@@ -7,5 +7,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-      - run: gsa ${{ inputs.gsa-options }}
+      - run: gsa ${{ inputs.gsa-options }} && echo SUCCESS
         shell: bash
