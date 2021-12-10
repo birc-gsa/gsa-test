@@ -1,2 +1,3 @@
 # gsa-test
-Run a test using GSA
+GitHub actiosn for running GSA tests.
+
