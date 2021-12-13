@@ -8,5 +8,5 @@ runs:
           python-version: "3.10"
       - run: python3 -m pip install git+https://github.com/mailund/pystr#egg=pystr
         shell: bash
-      - run: python3 -m pip install git+https://github.com/mailund/gsa#egg=gsa
+      - run: python3 -m pip install git+https://github.com/birc-gsa/gsa#egg=gsa
         shell: bash
