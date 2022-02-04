@@ -6,7 +6,5 @@ runs:
       - uses: actions/setup-python@v2
         with:
           python-version: "3.10"
-      - run: python3 -m pip install git+https://github.com/mailund/pystr#egg=pystr
-        shell: bash
       - run: python3 -m pip install git+https://github.com/birc-gsa/gsa#egg=gsa
         shell: bash
